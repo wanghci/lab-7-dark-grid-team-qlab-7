@@ -10,17 +10,16 @@
   <link rel="stylesheet" href="tiny.css">
   <link rel="stylesheet" href="debug.css">
   <link rel="stylesheet" href="dark.css">
-  <script src="script.js"></script>
 </head>
 
-<body class="debug">
-  <div class="wrapper">
+<body id="body" class="os-default">
+  <div class="wrapper" >
     <header class="main-head">The header</header>
     <nav class="main-nav">
       <ul>
-        <li><a href="">🌗 OS Default</a></li>
-        <li><a href="">🌙 Dark Mode</a></li>
-        <li><a href="">😎 Light Mode</a></li>
+        <li><a id="os-default" href="#">🌗 OS Default</a></li>
+        <li><a id="dark-button" href="#">🌙 Dark Mode</a></li>
+        <li><a id="light-button" href="">😎 Light Mode</a></li>
       </ul>
     </nav>
     <article class="content">
@@ -37,6 +36,7 @@
     <footer class="main-footer">The footer</footer>
   </div>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
